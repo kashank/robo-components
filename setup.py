@@ -13,6 +13,10 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/kashank/robo-components",
     packages=setuptools.find_packages(),
+    install_requires=[
+        'python-interface',
+        'RPi.GPIO',
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: GNU General Public License v3.0",
